@@ -1,5 +1,6 @@
 import './App.css';
 import Parent from './ChildToParent/Parent';
+import Ctrl from './Controlled/Ctrl';
 import Crousel from './Crousel/Crousel';
 import { DataFetching } from './DataFetching/DataFetching';
 import Folder from './Folderstructure/Folder';
@@ -9,6 +10,7 @@ import Rating from './Rating/Rating';
 import Search from './SearchBar/Search';
 import Stopwatch from './StopWatch/Stopwatch';
 import Todos from './ToDos/Todos';
+import Unctrl from './Unconrolledcomponen/Unctrl';
 import explorer from './data';
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
      {/* <Folder explorer={explorer}/> */}
      {/* <PracticeRating limit={5} Rating={2}/> */}
      {/* <Pagination/> */}
-     <Parent/>
+     {/* <Parent/> */}
+     {/* <Unctrl/> */}
+     <Ctrl/>
     </div>
   );
 }
