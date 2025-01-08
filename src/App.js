@@ -1,4 +1,5 @@
 import './App.css';
+import Parent from './ChildToParent/Parent';
 import Crousel from './Crousel/Crousel';
 import { DataFetching } from './DataFetching/DataFetching';
 import Folder from './Folderstructure/Folder';
@@ -21,7 +22,8 @@ function App() {
      {/* <Todos/> */}
      {/* <Folder explorer={explorer}/> */}
      {/* <PracticeRating limit={5} Rating={2}/> */}
-     <Pagination/>
+     {/* <Pagination/> */}
+     <Parent/>
     </div>
   );
 }
